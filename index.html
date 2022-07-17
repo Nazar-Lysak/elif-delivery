@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Delivery</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="header__nav-list">
+                <li class="header__nav-list_item nav-list_item-active">
+                    <a href="">Shop</a>
+                </li>
+                <li class="header__nav-list_item">
+                    <a href="">Shopping Cart</a>
+                </li>
+                <li class="header__nav-list_item">
+                    <a href="">History</a>
+                </li>
+                <li class="header__nav-list_item">
+                    <a href="">Coupons</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <nav>
+                <ul class="sidebar_nav-list">
+                    <li class="sidebar_nav-list_item sidebar_nav-list_item-active">
+                        <a class="donnyList" href="">Mc Donny</a>
+                    </li>
+                    <li class="sidebar_nav-list_item">
+                        <a class="cfkList" href="">CFK</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="content">
+            <div id="shop-section">
+
+            </div>
+            <div id="section_coupons">
+                <h2>Coupons</h2>
+                <div class="coupons_list">
+                </div>
+            </div>
+            <div id="section__cart">
+                <h2 class="chopping-cart_title">
+                    Shopping cart
+                </h2>
+                <div class="section__cart_content">
+                    <div class="section__cart_left">
+                        <form class="cartForm" action="">
+                            <label for="name">Name:</label>
+                            <input class="cart-input-name" type="text" id="name" name="name">
+                            <label for="email">Email:</label>
+                            <input class="cart-input-email" type="text" id="email" name="email">
+                            <label for="Phone">*Phone:</label>
+                            <input class="cart-input-phone" type="number" id="Phone" name="Phone">
+                            <label for="address">Address:</label>
+                            <input class="cart-input-adress" type="text" id="address" name="address">
+                        </form>
+                    </div>
+                    <div class="section__cart_right">
+                    </div>
+
+                </div>
+                <div class="section__cart_footer">
+                    <button class="cart-btn-submit">Submit</button>
+                    <input class="coupon-int" placeholder="Enter your coupon" type="text">
+
+                </div>
+
+            </div>
+
+            <div id="section_history">
+                <h2 class="section_history_title">
+                    History
+                </h2>
+                <div class="history_inputs">
+                    <label for="">Email</label>
+                    <input placeholder="xxx@x" class="history-inp-mail" type="text">
+                    <label for="">Phone</label>
+                    <input placeholder="012-345-67-89" class="history-inp-phone" type="number">
+                    <button class="history-bnt-submit">Submit</button>
+                </div>
+                <div class="history_list"></div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
+
+
+
+
